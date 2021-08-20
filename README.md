@@ -8,9 +8,9 @@ In this project, we will provide a step-by-step guide for creating a web scraper
 
 We will take a simple example of an online image search and tries to explain the concepts simply, extensively, and thoroughly to create a review scrapper right from scratch and then its deployment to a cloud environment. 
 
- We go to a website that shows images, and then we enter the keyword to search for the photos. 
- The website shows us the images. 
- We decide to download the image(s). 
+• We go to a website that shows images, and then we enter the keyword to search for the photos. 
+• The website shows us the images. 
+• We decide to download the image(s). 
 
 What if there is a computer program that can do all of these for us? That’s what web scrappers necessarily do. 
 They try to understand the webpage content as a human would do. 
