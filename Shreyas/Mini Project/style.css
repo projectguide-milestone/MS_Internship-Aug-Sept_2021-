@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(black.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: floralwhite;
+	font-size: 40px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center h3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center h4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center h5{
+	color: red;
+    border: 1px solid white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px;
+	width: 885px;
+	text-align: center;
+    
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	background: white;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons button:hover{
+	background: black;
+}
